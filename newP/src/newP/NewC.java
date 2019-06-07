@@ -11,7 +11,7 @@ public class NewC {
 		System.out.println(v1.setCipher());
 
 
-
+		CaeserCipher c1 = new CaeserCipher();
 
 
 		Scanner ch1 = new Scanner(System.in);
@@ -26,7 +26,7 @@ public class NewC {
 				System.out.print("1 to use Caeser, 2 to use Vigenere:");
 				int i2=ch1.nextInt();
 				if(i2==1){
-					CaeserCipher c1=new CaeserCipher();
+
 
 				}
 				else if(i2==2){
