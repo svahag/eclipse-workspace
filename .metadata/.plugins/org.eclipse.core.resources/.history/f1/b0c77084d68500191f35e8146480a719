@@ -1,0 +1,49 @@
+package newP;
+import java.util.*;
+public class NewC {
+	
+	public static void main(String args[]) {
+		Cipher c1 = new Cipher();
+		Scanner ch1 = new Scanner(System.in);
+		Scanner ch2 = new Scanner(System.in);
+		
+		
+		while(1==1) {
+			System.out.println("press 1 to cipher, press 2 to decipher:");
+
+			int i1=ch1.nextInt();
+			
+			if(i1==1) {
+				int choiceMade[]= {0,0};
+				System.out.println("1 to enter text, 2 to enter key");
+				int i2=ch2.nextInt();
+				if(i2==1) {
+					c1.setText();
+					}
+				}
+				else if(i2==2) {
+					c1.setKey();
+				}
+				else {
+					System.out.println("you entered invalid choice, please reenter")
+				}
+			}
+			
+			else {
+				break;
+			}
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		c1.setCipher();
+		c1.getCipher();
+
+	}
+	
+}

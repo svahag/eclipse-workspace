@@ -1,0 +1,13 @@
+package newP;
+
+public class NewC {
+	
+	public static void main(String args[]) {
+		
+		Cipher c1 = new Cipher();
+		c1.setText();
+		c1.setKey();
+		c1.getCipher();
+	}
+	
+}

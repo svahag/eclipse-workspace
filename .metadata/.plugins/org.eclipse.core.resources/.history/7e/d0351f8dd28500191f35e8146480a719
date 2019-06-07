@@ -1,0 +1,30 @@
+package newP;
+import java.util.Scanner;
+public class NewC {
+	
+	public static void main(String args[]) {
+		Cipher c1 = new Cipher();
+		
+		while(1==1) {
+			System.out.println("press 1 to cipher, press 2 to decipher:");
+			Scanner ch1 = new Scanner(System.in);
+			int i=ch1.nextInt();
+			if(i==1) {
+				System.out.println("1 to enter text, 2 to enter key")
+			}
+			else {
+				break;
+			}
+			
+		}
+		
+		
+		
+		c1.setText();
+		c1.setKey();
+		c1.setCipher();
+		c1.getCipher();
+
+	}
+	
+}

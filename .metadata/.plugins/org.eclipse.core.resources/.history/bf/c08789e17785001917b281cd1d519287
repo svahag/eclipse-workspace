@@ -1,0 +1,70 @@
+package newP;
+import java.util.Scanner;
+public class nnn {
+	
+
+	public static void main(String[] args) {
+		
+    	
+    	String alp = "abcdefghijklmnopqrstuvwxyz";
+    	String scr = alp.substring(17)+alp.substring(0, 17);
+    	String txt = "i am";
+    	String result = "";
+    	char ch;
+    	for(int i=0; i<txt.length();i++) {
+    		int x=alp.indexOf(txt.charAt(i));
+    		
+    		if(x>=0) {
+    			ch=scr.charAt(x);
+    			String s = Character.toString(ch);
+    			result+=s;
+    		}
+    		else {
+    			result+=" ";
+    		}
+    	}
+    	
+    	System.out.print(result);
+    	
+    	
+    	
+    	
+    	
+    	
+    	/*	String[][] Ocean = new String[10][10];
+	    for(int i=0; i<Ocean.length; i++) {
+	    	String spc = " ";
+	    	for(int y=0; y<10; y++) {
+	    	    Ocean[i][y] = spc;
+	        }
+	    }
+	    
+	    printOcean ocean1 = new printOcean(Ocean);
+	    coordInput input1 = new coordInput(0, 0);
+	    ocean1.ocean();
+	    for(int i=0; i<5; i++) {
+	    	int[] ab = input1.Input();
+	    	if(Ocean[ab[0]][ab[1]]=="@") {
+	    		System.out.println("Please enter different coordinates");
+	    		--i;}
+	    	else {
+	    		Ocean[ab[0]][ab[1]]="@";}		
+	    }
+	    ocean1.ocean();
+		*/
+		
+		
+    }
+    
+
+}
+
+
+		
+
+	    
+	    
+
+    
+    
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Microsoft.MicrosoftProvider"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Microsoft.HybridProvider"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Microsoft"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Google.GoogleMapProvider"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Google.GoogleSimplifiedProvider"/>
+<fullyQualifiedTypeName name="de.fhpotsdam.unfolding.providers.Microsoft.RoadProvider"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>
