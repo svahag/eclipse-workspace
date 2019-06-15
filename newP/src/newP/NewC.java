@@ -2,7 +2,7 @@ package newP;
 import java.util.*;
 public class NewC {
 	
-	public static void main(String args[]) {
+/*
 
 		VigenereCipher v1 = new VigenereCipher("dice","flagship flag" );
 
@@ -58,6 +58,6 @@ public class NewC {
 
 		
 
-
+*/
 	}
-}
+

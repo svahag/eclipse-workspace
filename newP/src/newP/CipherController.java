@@ -9,29 +9,23 @@ import javafx.stage.Window;
 
 public class CipherController {
 
-    public class Controller {
 
-        @FXML
-        private TextField nameField;
+    @FXML
+    private TextField nameField;
 
-        @FXML
-        private TextField emailField;
+    @FXML
+    private TextField emailField;
 
-        @FXML
-        private PasswordField passwordField;
+    @FXML
+    private PasswordField passwordField;
 
-        @FXML
-        private Button submitButton;
+    @FXML
+    private Button submitButton;
 
-        @FXML
-        protected void handleSubmitButtonAction(ActionEvent event){
-            Window owner = submitButton.getScene().getWindow();
-
-        }
-
-
+    @FXML
+    public void handleSubmitButtonAction(ActionEvent event) {
+        Window window = submitButton.getScene().getWindow();
 
     }
-
 
 }

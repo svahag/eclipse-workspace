@@ -11,7 +11,7 @@
 <?import javafx.scene.control.PasswordField?>
 
 <GridPane alignment="center" hgap="10" prefHeight="244.0" prefWidth="535.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea"
-          xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+          xmlns:fx="http://javafx.com/fxml/1" fx:controller="newP.CipherController">
     <padding><Insets bottom="40" left="40" right="40" top="40" /> </padding>
     <columnConstraints>
         <ColumnConstraints halignment="RIGHT" maxWidth="Infinity" minWidth="100" prefWidth="100">
